@@ -1,0 +1,60 @@
+
+/* - ploneCustom.css - */
+@media all {
+/* http://coherence.clir.org/portal_css/ploneCustom.css?original=1 */
+/* */
+/* */
+.image-left {
+float: left;
+margin: 0.5em 1em 0.5em 0;
+}
+.image-right {
+float: right;
+margin: 0.5em;
+}
+.image-inline {
+float: none;
+}
+img.image-left,
+img.image-right,
+.captioned img {
+border: 1px solid #ddd;
+}
+dd.image-caption {
+text-align: left;
+padding: 0 0 0 3px; /**/
+margin: 0;
+color: #666;
+font-size: 85%;
+}
+/* */
+header .sub-menu {
+width: 160px;
+left: -24px;
+top: 30px;
+}
+.top-aside {
+background: none repeat scroll 0 0 #F5B403 !important;
+}
+footer {
+background: none repeat scroll 0 0 #6B6C5F !important;
+}
+footer *, .social_links a:link, .social_links a:active, .social_links a:visited, footer a:hover, footer span {
+color: #FFFFFF !important;
+}
+#content-container a, #content-container a:link, #content-container a:hover {
+color: #5DA1A4 !important;
+}
+header nav a, header nav a:hover, h3 {
+color: #27222D !important;
+}
+.small_banner {
+background: none repeat scroll 0 0 #6B6C5F !important;
+}
+@media screen and (max-width: 600px)
+div.footer-default-two img.image-inline, div.footer-default-two img.image-left, div.footer-default-two img.image-right {
+width: 100% ;
+}
+
+}
+
